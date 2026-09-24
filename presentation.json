@@ -26,7 +26,11 @@
    "theme": "red",
    "content": {
     "event": "卒業制作 / 進級制作 企画審査資料",
+<<<<<<< HEAD
     "brand": "Chilli 鍋 nn",
+=======
+    "brand": "Chilli 鍋 ザン",
+>>>>>>> 4c8ebff (this is testing)
     "tagline": "一皿で、幸せを味わおう",
     "team": "シャンシャングミ",
     "course": "本科システム系",
