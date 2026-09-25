@@ -1,5 +1,5 @@
 {
- "v": 2,
+ "v": 3,
  "settings": {
   "font": "maru"
  },
@@ -15,6 +15,10 @@
   "persona": {
    "label": "ペルソナの写真",
    "src": null
+  },
+  "persona2": {
+   "label": "ペルソナ②(辛いのが苦手)の写真",
+   "src": null
   }
  },
  "pages": [
@@ -26,11 +30,7 @@
    "theme": "red",
    "content": {
     "event": "卒業制作 / 進級制作 企画審査資料",
-<<<<<<< HEAD
-    "brand": "Chilli 鍋 nn",
-=======
     "brand": "Chilli 鍋 ザン",
->>>>>>> 4c8ebff (this is testing)
     "tagline": "一皿で、幸せを味わおう",
     "team": "シャンシャングミ",
     "course": "本科システム系",
@@ -57,32 +57,32 @@
    "enabled": true,
    "theme": "light",
    "content": {
-    "hero": "「選ぶ楽しさ」と「本格の辛旨」を、\n自宅にお届けする麻辣香鍋専門ECサイト",
+    "hero": "麻辣香鍋専門のオンラインECサイト",
     "heroSub": "",
     "items": [
      {
       "enabled": true,
       "icon": "bowl",
-      "title": "好きな具材を選ぶ",
-      "sub": "食材を自由に選べる"
+      "title": "中華料理",
+      "sub": ""
      },
      {
       "enabled": true,
       "icon": "soup",
-      "title": "スープあり・なし",
-      "sub": "スープの有無を選択"
+      "title": "四川料理の「麻」「辣」の味が特徴",
+      "sub": ""
      },
      {
       "enabled": true,
       "icon": "chili",
-      "title": "辛さ・味を選ぶ",
-      "sub": "自分好みに調整"
+      "title": "さまざまな具材を入れて楽しむ料理で",
+      "sub": ""
      },
      {
       "enabled": true,
       "icon": "home",
-      "title": "自宅から注文",
-      "sub": "店舗に行かず、簡単に"
+      "title": "しゃぶしゃぶのように",
+      "sub": ""
      }
     ]
    }
@@ -95,14 +95,14 @@
    "theme": "light",
    "content": {
     "header": "開発の背景",
-    "hero": "麻辣香鍋が\n好きな人へ",
+    "hero": "DATA(流行)",
     "image": "background",
     "points": [
      {
-      "text": "好きな味を自由にカスタマイズ"
+      "text": "graph of malatang that people are increasing form 2024 to 2026 in japan"
      },
      {
-      "text": "自分だけの組み合わせを友達・家族と共有"
+      "text": "compare with website and shop income %  "
      }
     ],
     "closing": "新しい楽しみ方を、届けたい"
@@ -147,6 +147,44 @@
    }
   },
   {
+   "id": "persona2",
+   "type": "persona",
+   "title": "ターゲットのペルソナ②",
+   "enabled": true,
+   "theme": "light",
+   "content": {
+    "header": "辛いのが苦手な人にも",
+    "image": "persona2",
+    "name": "佐藤さん",
+    "age": "23歳",
+    "job": "会社員",
+    "place": "大阪",
+    "traits": [
+     "辛い料理が苦手",
+     "友達に誘われて来ることが多い",
+     "薄味・やさしい味が好き"
+    ],
+    "likesLabel": "好きな料理",
+    "likes": [
+     "甘口担々麺",
+     "鍋料理",
+     "スープ系"
+    ],
+    "hobbiesLabel": "趣味",
+    "hobbies": [
+     "カフェ巡り",
+     "読書",
+     "友達とご飯"
+    ],
+    "painLabel": "悩み",
+    "pain": "辛さを調整できないと\n一緒に注文しづらい",
+    "pain2": "辛くない選択肢が少ない店が多い",
+    "whyLabel": "利用する理由",
+    "why": "辛さを選べるから\n安心して注文できる",
+    "why2": "辛い人も辛くない人も、同じ鍋を一緒に楽しめる"
+   }
+  },
+  {
    "id": "problems",
    "type": "problems",
    "title": "ターゲットが抱える課題",
@@ -158,31 +196,36 @@
     "items": [
      {
       "icon": "home",
-      "title": "外出の負担",
-      "points": [
-       "忙しくて店に行く時間がない",
-       "外食のために外出するのが面倒",
-       "メイクや服装など、外出の準備が面倒"
-      ]
+      "title": "for decrese for lossing customer ",
+      "points": []
      },
      {
       "icon": "chat",
-      "title": "店舗注文の負担",
-      "points": [
-       "店員と直接話すのが苦手",
-       "店で待つ時間が長い"
-      ]
+      "title": "want to start small business",
+      "points": []
      },
      {
-      "icon": "sliders",
-      "title": "カスタマイズの難しさ",
+      "icon": "coin",
+      "title": "decrese worker's power",
+      "points": []
+     },
+     {
+      "icon": "coin",
+      "title": "can't use alot of money",
       "points": [
-       "好きな具材や辛さを選びにくい"
+       "注文前に合計金額が分かりにくい"
       ]
      },
      {
       "icon": "coin",
-      "title": "価格への不安",
+      "title": "mistake customer's order",
+      "points": [
+       "注文前に合計金額が分かりにくい"
+      ]
+     },
+     {
+      "icon": "coin",
+      "title": "AI may",
       "points": [
        "注文前に合計金額が分かりにくい"
       ]
@@ -223,6 +266,12 @@
       "icon": "users",
       "title": "友達・家族と共有",
       "sub": "おすすめの組み合わせを共有"
+     },
+     {
+      "enabled": true,
+      "icon": "users",
+      "title": "can you get points by buying from our website",
+      "sub": ""
      }
     ]
    }
@@ -664,9 +713,7 @@
      "初期投資",
      "売上の使いみち",
      "月間の売上目標",
-     "月間の利益目標",
-     "投資回収",
-     "保守的なシナリオ"
+     "投資回収"
     ],
     "invest": {
      "title": "初期投資",
@@ -722,40 +769,15 @@
      "avgOrder": 2500,
      "days": 30,
      "members": 3,
-     "phases": [
+     "baseOrders": 10,
+     "targets": [
       {
-       "label": "1〜3ヶ月目",
-       "orders": 10,
-       "months": 3
+       "orders": 10
       },
       {
-       "label": "4〜6ヶ月目",
-       "orders": 25,
-       "months": 3
-      },
-      {
-       "label": "7ヶ月目〜",
-       "orders": 40,
-       "months": 0
+       "orders": 25
       }
      ]
-    },
-    "payback": {
-     "horizon": 8,
-     "label": "投資回収",
-     "perLabel": "1人あたり 月"
-    },
-    "cons": {
-     "orders": 10,
-     "months": 7,
-     "labels": {
-      "d": "1日",
-      "m": "1ヶ月",
-      "profit": "利益",
-      "left": "元本まで あと",
-      "over": "元本を上回る",
-      "note": "1日{orders}件のまま\n{months}ヶ月続けたら"
-     }
     }
    }
   },
